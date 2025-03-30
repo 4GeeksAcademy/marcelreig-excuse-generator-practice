@@ -1,5 +1,19 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
 
-body{
-    background: white;
+.wrapper {
+  max-width: 500px;
+  height: 400px;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px
 }
